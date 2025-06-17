@@ -1,17 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Lokesh - Profile</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BC Lokesh - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Hello, I'm Lokesh 👋</h1>
-    <img src="profile.jpg" alt="Profile Photo" class="profile-pic">
-    <p><strong>Email:</strong> lokesh@example.com</p>
-    <p><strong>Skills:</strong> Java, Spring Boot, HTML, CSS, JavaScript</p>
-    <p><strong>About Me:</strong> I’m a developer who loves building Java projects and websites.</p>
-  </div>
+  <nav class="navbar">
+    <ul class="nav-menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+    
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="resume.pdf" class="top-download" download>Download Resume</a>
+  </nav>
+
+  <section class="hero-section">
+    <div class="profile-container">
+      <img src="profile.jpg" alt="Lokesh Photo" class="profile-pic" />
+    </div>
+    <div class="hero-text">
+      <h1>Hi, I’m <span>Lokesh</span></h1>
+      <p>Aspiring <span class="highlight">Java Developer</span></p>
+     
+    </div>
+  </section>
+
+  <section id="about" class="info-section">
+    <h2>About Me</h2>
+    <p>B.Tech CSE (AIML) student at Kalasalingam University, passionate about Java and Web Development. Strong communication, fast learner, and great collaborator.</p>
+    <ul>
+      <li><strong>Email:</strong> lokeshlokesh8266@gmail.com</li>
+      <li><strong>Phone:</strong> +91 8639924308</li>
+      <li><strong>Location:</strong> Kurnool, Andhra Pradesh</li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/bc-lokesh-93320a26b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">bc-lokesh</a></li>
+    </ul>
+  </section>
+  <section id="contact" class="info-section">
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> lokeshlokesh8266@gmail.com</p>
+    <p><strong>Phone:</strong> +91 8639924308</p>
+    <p><strong>Location:</strong> Kurnool, Andhra Pradesh</p>
+    <p><strong>Languages:</strong> Telugu, English, Tamil</p>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>

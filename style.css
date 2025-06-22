@@ -362,44 +362,5 @@ nav ul li:hover {
   background: linear-gradient(to right, #06b6d4, #9333ea);
   transform: translateY(-3px);
 }
-.certificate-gallery {
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  gap: 20px;
-  padding: 20px;
-  white-space: nowrap;
-}
 
-.certificate-item {
-  flex: 0 0 auto;
-  text-align: center;
-  min-width: 300px;
-  background: #1e293b;
-  border-radius: 10px;
-  padding: 10px;
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
-  transition: transform 0.3s;
-}
 
-.certificate-item img {
-  width: 100%;
-  max-height: 200px;
-  border-radius: 8px;
-  object-fit: cover;
-}
-
-.certificate-item p {
-  margin-top: 10px;
-  color: #cbd5e1;
-  font-size: 14px;
-}
-
-.certificate-gallery::-webkit-scrollbar {
-  height: 8px;
-}
-
-.certificate-gallery::-webkit-scrollbar-thumb {
-  background: #38bdf8;
-  border-radius: 5px;
-}

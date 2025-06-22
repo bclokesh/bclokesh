@@ -306,7 +306,6 @@
         <li>Home</li>
         <li>About</li>
         <li>Projects</li>
-        <li>Awards</li>
         <li>Contact</li>
       </ul>
     </nav>
@@ -365,26 +364,6 @@
         <p>A web-based system to manage and track college bus transport services. It allows students to View bus schedules & Track bus routes and timing.</p>
         <a href="#" target="_blank">View Demo</a>
       </div>
-    
-  const gallery = document.getElementById("scroll-gallery");
-
-  let scrollStep = 1;
-
-  function autoScrollGallery() {
-    if (gallery.scrollLeft + gallery.clientWidth >= gallery.scrollWidth) {
-      gallery.scrollLeft = 0; 
-    } else {
-      gallery.scrollLeft += scrollStep; // Scroll right
-    }
-
-    requestAnimationFrame(autoScrollGallery); // Keep scrolling
-  }
-
-  autoScrollGallery(); // Start
-</script>
-</body>
-</html>
-
   <section class="contact" id="contact">
     <h2>📬 Contact Me</h2>
 

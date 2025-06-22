@@ -322,26 +322,7 @@ nav ul li:hover {
 .project-card a:hover {
   color: #facc15;
 }
-.certificate-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
 
-.certificate-item {
-  text-align: center;
-}
-
-.certificate-item img {
-  width: 280px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
-}
-
-.certificate-item p {
-  color: #cbd5e1;
-  margin-top: 10px;
 }
 
 .download-btn {
